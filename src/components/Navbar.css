@@ -1,0 +1,62 @@
+* {
+  text-decoration: none;
+  margin: 0%;
+}
+
+.navbar {
+  display: flex;
+  height: 72px;
+  padding: 9px 148px 8px 147px;
+  justify-content: center;
+  align-items: center;
+  gap: 1286px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  background: #191919;
+
+}
+
+.Logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.navcomp {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navcomp ul {
+  list-style: none;
+  /* Remove the bullets */
+}
+.Work{
+  color: #FFF;
+}
+.Contact{
+  color: #FFF;
+}
+.navcomp li {
+  color: #FFF;
+  /* Set the text color to white */
+  font-family: 'Inter', sans-serif;
+  /* Make sure to enclose font names with spaces in single or double quotes */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.navcomp li :hover{
+  color: #7A5CFE;
+}
