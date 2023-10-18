@@ -15,7 +15,8 @@
 .sub {
   display: flex;
   align-items: center;
-  gap: 840px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .text {
@@ -36,7 +37,7 @@
 
 .h1Style {
   color: #7A5CFE;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -45,7 +46,7 @@
 
 .h1Styles {
   color: #FFF;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -55,7 +56,7 @@
 .description {
   width: 550px;
   color: #FFF;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

@@ -7,9 +7,8 @@
   display: flex;
   height: 72px;
   padding: 9px 148px 8px 147px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 1286px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   background: #191919;
 
