@@ -1,0 +1,43 @@
+* {
+  text-decoration: none;
+  margin: 0%;
+}
+
+.h5Text {
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.SliderSecond {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.SkillsMain {
+  align-items: center;
+  justify-content: center;
+  grid-gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 278px);
+  grid-template-rows: repeat(1, 134px);
+  margin: 0 auto;
+  
+}
+
+.Second{
+  color:#FFF;
+}
+
+.SliderMain{
+  gap: 8px;
+}
+
