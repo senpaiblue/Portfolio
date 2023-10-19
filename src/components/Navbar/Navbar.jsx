@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Lottie from 'lottie-react';
-import animationData from '../assets/Animation - 1697396002016.json'
+import animationData from '../../assets/Animation - 1697396002016.json'
 import "./Navbar.css"
 
 

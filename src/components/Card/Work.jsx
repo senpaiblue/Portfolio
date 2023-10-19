@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Card from './Card';
-import LinkCollect from '../assets/LinkCollect.png';
-import Mama from '../assets/Mama.png';
-import MetaOrange from '../assets/MetaOrange.png';
-import Portfolio from '../assets/Portfolio.png';
+import LinkCollect from '../../assets/LinkCollect.png';
+import Mama from '../../assets/Mama.png';
+import MetaOrange from '../../assets/MetaOrange.png';
+import Portfolio from '../../assets/Portfolio.png';
 const cards = [
   {
     img: LinkCollect,

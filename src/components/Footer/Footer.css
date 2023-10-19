@@ -1,0 +1,27 @@
+* {
+  text-decoration: none;
+  margin: 0%;
+}
+
+.Footer-Main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 56px 148px;
+  color: #FFF;
+}
+
+.Inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

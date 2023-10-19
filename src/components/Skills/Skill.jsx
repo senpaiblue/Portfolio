@@ -6,8 +6,6 @@ const Skill = ({ name, img }) => {
     <div className='SkillsMain'>
       <div className='Second'>
         <h3>{name}</h3>
-      </div>
-      <div className='Third'>
         <img src={img} alt={name} />
       </div>
     </div>

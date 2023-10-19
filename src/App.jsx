@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import Home from './components/Home';
-import Work from './components/Work'; // Import the Work component
-import Contact from './components/Contact'; // Import the Contact component
+import Home from './components/Pages/Home';
+import Work from './components/Card/Work'; // Import the Work component
+import Contact from './components/Pages/Contact'; // Import the Contact component
 
 function App() {
   return (

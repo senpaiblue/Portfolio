@@ -2,3 +2,27 @@
   background: #191919;
   text-decoration: none;
 }
+
+.primary-button {
+  border-radius: 8px;
+  background: #333131;
+}
+
+.default-button {
+  border-radius: 8px;
+  border: 1px solid #333131;
+  display: flex;
+  width: 290px;
+  height: 62px;
+  padding: 7px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  color: #fff;
+}
+
+.default-button:hover {
+  border-radius: 8px;
+  background: #333131;
+}
