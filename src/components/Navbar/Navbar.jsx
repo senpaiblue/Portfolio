@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Lottie from 'lottie-react';
-import animationData from '../../assets/Animation - 1697396002016.json'
+import Logo from '../../assets/Animation - 1697396002016.json'
 import "./Navbar.css"
 
 
@@ -12,7 +12,7 @@ const Navbar = () => {
 
         <Link to="/" className='Logo'>
           <Lottie
-            animationData={animationData}
+            animationData={Logo}
             style={{ height: '55px', width: '55px' }}
           />
           Sakcham
