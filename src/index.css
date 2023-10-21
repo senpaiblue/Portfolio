@@ -1,11 +1,11 @@
+/* fonts.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400&display=swap');
+
 * {
+  font-family: 'Lexend', sans-serif;
   background: #191919;
   text-decoration: none;
-}
-
-.primary-button {
-  border-radius: 8px;
-  background: #333131;
 }
 
 .default-button {
@@ -13,7 +13,7 @@
   border: 1px solid #333131;
   display: flex;
   width: 290px;
-  height: 62px;
+  height: max-content;
   padding: 7px 12px;
   justify-content: center;
   align-items: center;

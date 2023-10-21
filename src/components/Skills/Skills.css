@@ -11,7 +11,7 @@
 
 .h5Text {
   color: #FFF;
-  font-family: 'Inter';
+  font-family: 'Marko One', serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -20,7 +20,7 @@
 
 .SliderSecond {
   color: #FFF;
-  font-family: 'Inter';
+  font-family: 'Marko One', serif;
   font-size: 18px;
   display: flex;
   flex-direction: column;

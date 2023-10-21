@@ -31,7 +31,7 @@ const Info = () => {
         <ul className='section-list'>
           <li className='Email-Section'> 
             <h1 className='Email'>My Email Id</h1>
-            <a href="#" className='default-button' onClick={handleCopyEmail}>Copy Email</a>
+            <a href="#" className='default-button' onClick={handleCopyEmail}>singhsakcham29@gmail.com</a>
           </li> 
           <li className='Twitter-Section'>
             <h1 className='Twitter'>Twitter</h1>

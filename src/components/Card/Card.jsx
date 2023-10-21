@@ -1,8 +1,11 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ img, footer, Id, currentHovered, handleChange }) => {
+const Card = ({ img, footer, header, Id, currentHovered, handleChange }) => {
   const colorArray = ["#6166F1", "#12AB69", "#FE4A07", "#FFFFFF"];
+  const imageBorder={
+    border: colorArray[Id],
+  }
   const cardStyle = {
     borderColor: colorArray[Id],
     boxShadow: currentHovered === Id ? `0px 2px 20px 0px ${colorArray[Id]}` : `none`,
@@ -17,12 +20,21 @@ const Card = ({ img, footer, Id, currentHovered, handleChange }) => {
   };
 
   return (
-    <div className="card" onMouseEnter={() => handleMouseEnter(Id)} onMouseLeave={handleMouseLeave}>
-      <div className="card-body" style={cardStyle}>
+    <div className="card" style={cardStyle} onMouseEnter={() => handleMouseEnter(Id)} onMouseLeave={handleMouseLeave}>
+      <div className="card-body" style={imageBorder}>
         <img src={img} alt={footer} />
       </div>
       <div className="card-footer">
-        <p>{footer}</p>
+        <div className='HeaderOfH1'>
+          <h1 className='cardH1'>{header}</h1>
+          <div className='lower'>
+            <p>{footer}</p>
+          </div>
+        </div>
+        <div className='FindMore'>
+          <div className='default-button'> Find More
+          </div>
+        </div>
       </div>
     </div>
   );

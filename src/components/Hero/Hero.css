@@ -7,7 +7,7 @@
   display: flex;
   height: 581px;
   padding: 41px 62px 40px 147px;
-  justify-content: flex-end;
+  font-family: 'Lexend', sans-serif;
   align-items: center;
   background: #191919;
 }
@@ -28,7 +28,7 @@
 
 .headingStyle {
   color: #FFF;
-  font-family: Inter;
+  font-family: 'Lexend', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -37,7 +37,7 @@
 
 .h1Style {
   color: #7A5CFE;
-  font-family: 'Inter';
+  font-family: 'Lexend', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +46,7 @@
 
 .h1Styles {
   color: #7A5CFE;
-  font-family: 'Inter';
+  font-family: 'Lexend', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -56,7 +56,7 @@
 .description {
   width: 550px;
   color: #FFF;
-  font-family: 'Inter';
+  font-family: 'Lexend', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
