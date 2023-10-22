@@ -1,11 +1,8 @@
-// Skills.js
-
-// Skills.js
 
 import React from 'react';
 import './Skills.css';
 import Skill from './Skill';
-import FigmaLevel from '../../assets/FigmaLevel.png';
+import FigmaLevel from '../../assets/FigmaLevel.svg';
 import CanvaLevel from '../../assets/CanvaLevel.png';
 import CssLevel from '../../assets/CssLevel.png';
 import HtmlLevel from '../../assets/HtmlLevel.png';
