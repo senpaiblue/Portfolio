@@ -1,0 +1,41 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.MamaWorkMain{
+  display: flex;
+  flex-direction: column;
+  gap:8rem;
+} 
+
+.MamaWorkFifth{
+  width: 35vw;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+}
+.MamaWorkFourth{
+  color: #12AB69;
+  font-size: 28px;
+  font-weight: 300;
+}
+.MamaWorkFirst img{
+  display: flex;
+  margin-left: 9rem;
+  width: 500px;
+  
+}
+
+.MamaWorkThird{
+ display: flex;
+ align-items: first baseline;
+ flex-direction: column;
+}
+
+.MamaWorkZero{
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+}

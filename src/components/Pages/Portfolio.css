@@ -1,0 +1,40 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+.PortfolioWorkMain{
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+.PortfolioWorkNegative{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.PortfolioWorkZero img{
+  width: 500px;
+  margin-left: 9rem;
+}
+.PortfolioWorkFirst{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.PortfolioWorkThird{
+   color: #fff;
+   font-size: 28px;
+   font-weight: 300;
+}
+.PortfolioWorkFifth{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  width: 35vw;
+  margin-right: 9rem;
+}

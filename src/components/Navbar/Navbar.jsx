@@ -9,7 +9,6 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className='logoContainer'>
-
         <Link to="/" className='Logo'>
           <Lottie
             animationData={Logo}

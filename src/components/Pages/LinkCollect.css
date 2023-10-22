@@ -1,0 +1,43 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.WorkPageSecond img{
+  width: 500px;
+  height: auto;
+  margin-left: 9rem;
+  }
+
+  .WorkPageSecond{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6rem;
+  }
+
+  .WorkPageThird{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 0%;
+   gap: 12px;
+  }
+
+  .WorkPageFifth{
+    display: flex;
+    width: 35vw;
+    font-weight: 200;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .WorkPageFourth{
+    display: flex;
+    font-size: 28px;
+    font-weight: 300;
+    color: #6166F1;
+  }
+

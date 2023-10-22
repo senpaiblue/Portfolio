@@ -1,6 +1,8 @@
 * {
   text-decoration: none;
   margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .cards {
@@ -13,11 +15,12 @@
   max-width: fit-content;
   margin: auto;
   padding: 0px 40px;
+  gap: 24px;
 }
 
 .card {
   display: flex;
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 16px;
   margin: 4px;
   flex-direction: column;
@@ -25,7 +28,7 @@
   gap: 16px;
   max-width: 32rem;
   max-height: fit-content;
-  padding: 20px 16px 20px 16px ;
+  padding: 20px 16px 20px 16px;
   margin-bottom: 20px;
 }
 
@@ -55,7 +58,7 @@
 }
 
 .card-body img {
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 16px;
   width: 100%;
 }
@@ -77,20 +80,21 @@
   font-weight: 300;
 }
 
-.card-footer{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   width: 100%;
-   margin: 30px;
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 30px;
 }
 
-.FindMore{
+.FindMore {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+
 @media(max-width:1400px) {
   .card {
     width: 90%;

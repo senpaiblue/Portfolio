@@ -1,6 +1,8 @@
 * {
   text-decoration: none;
   margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -15,7 +17,7 @@
 
 }
 
-.Logo{
+.Logo {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -38,12 +40,15 @@
   list-style: none;
   /* Remove the bullets */
 }
-.Work{
+
+.Work {
   color: #FFF;
 }
-.Contact{
+
+.Contact {
   color: #FFF;
 }
+
 .navcomp li {
   color: #FFF;
   /* Set the text color to white */
@@ -57,6 +62,7 @@
   align-items: flex-start;
   gap: 24px;
 }
-.navcomp li :hover{
+
+.navcomp li :hover {
   color: #7A5CFE;
 }

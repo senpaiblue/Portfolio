@@ -31,15 +31,16 @@ const Info = () => {
         <ul className='section-list'>
           <li className='Email-Section'> 
             <h1 className='Email'>My Email Id</h1>
-            <a href="#" className='default-button' onClick={handleCopyEmail}>singhsakcham29@gmail.com</a>
+            <a href="mailto:singhsakcham29@gmai.com" className='default-button' onClick={handleCopyEmail}>singhsakcham29@gmail.com</a>
           </li> 
           <li className='Twitter-Section'>
             <h1 className='Twitter'>Twitter</h1>
-            <a href="https://twitter.com/SakchamSingh07" className='default-button'>Twitter</a>
+            <a href="https://twitter.com/SakchamSingh07" target='_blank' className='default-button'>Twitter</a>
           </li>
           <li className='CV-Section'>
             <h1 className='CV'>My CV</h1>
-            <a href={cvUrl} className='default-button' download>Download</a>
+            <a href="https://drive.google.com/file/d/1C-mfECv3MNieqNUdYz3B7szKUjLccH3Y/view?usp=share_link" target='_blank'
+            className='default-button' download>Open</a>
           </li>
         </ul>
       </div>

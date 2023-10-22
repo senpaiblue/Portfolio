@@ -3,10 +3,11 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './components/Pages/Home';
 import Work from './components/Card/Work'; // Import the Work component
 import Contact from './components/Pages/Contact'; // Import the Contact component
-import LinkCollect from './components/Pages/LinkCollect';
-import Mama from './components/Pages/Mama';
-import MetaOrange from './components/Pages/MetaOrange'
-import Portfolio from './components/Pages/Portfolio'
+import LinkCollectPage from './components/Pages/LinkCollect';
+import MamaPage from './components/Pages/Mama';
+import MetaOrangePage from './components/Pages/MetaOrange'
+import PortfolioPage from './components/Pages/Portfolio'
+import WorkPage from './components/Pages/WorkPage'
 
 function App() {
   return (
@@ -14,12 +15,12 @@ function App() {
         <div className='App'>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/Work' element={<Work />} />
+            <Route path='/Work' element={<WorkPage />} />
             <Route path='/Contact' element={<Contact />} />
-            <Route path="/linkcollect" element={<LinkCollect/>} />
-            <Route path="/mama" element={<Mama/>} />
-            <Route path="/metaorange" element={<MetaOrange/>} />
-            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/linkcollect" element={<LinkCollectPage/>} />
+            <Route path="/mama" element={<MamaPage/>} />
+            <Route path="/metaorange" element={<MetaOrangePage/>} />
+            <Route path="/portfolio" element={<PortfolioPage/>} />
           </Routes>
         </div>
       </BrowserRouter>

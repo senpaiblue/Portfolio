@@ -1,0 +1,40 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+.MetaOrangeWorkMain{
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+.MetaOrangeWorkNegative{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.MetaOrangeWorkZero img{
+  width: 500px;
+  margin-left: 9rem;
+}
+.MetaOrangeWorkFirst{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.MetaOrangeWorkThird{
+   color: #FC7030;
+   font-size: 28px;
+   font-weight: 300;
+}
+.MetaOranngeWorkFifth{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  width: 35vw;
+  margin-right: 9rem;
+}

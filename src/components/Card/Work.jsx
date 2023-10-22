@@ -8,22 +8,26 @@ const cards = [
    {
       img: LinkCollect,
       header: 'Linkcollect',
-      footer: 'Product Designer (1500+ Users)',
+      footer: 'Product Designer (1500+ Users), Buildspace round of 16',
+      somePage: '/linkcollect'
    },
    {
       img: Mama,
       header: 'Mama',
       footer: 'Lead Product Designer at Mama (1000+ Users)',
+      somePage: '/mama'
    },
    {
       img: MetaOrange,
       header: 'MetaOrange',
       footer: 'System Design at MetaOrange',
+      somePage: '/metaorange'
    },
    {
       img: Portfolio,
       header: 'Portfolio',
       footer: 'Frontend on my portfolio',
+      somePage: '/portfolio'
    },
 ];
 
@@ -45,6 +49,7 @@ const Work = () => {
                img={card.img}
                header={card.header}
                footer={card.footer}
+               somePage={card.somePage}
                currentHovered={hoveredElement}
                handleChange={setHoveredElement}
 

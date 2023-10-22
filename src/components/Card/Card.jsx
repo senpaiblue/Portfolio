@@ -1,9 +1,11 @@
 import React from 'react';
 import './Card.css';
+import { Link } from "react-router-dom";
 
-const Card = ({ img, footer, header, Id, currentHovered, handleChange }) => {
+
+const Card = ({ img, footer, header, somePage, Id, currentHovered, handleChange }) => {
   const colorArray = ["#6166F1", "#12AB69", "#FE4A07", "#FFFFFF"];
-  const imageBorder={
+  const imageBorder = {
     border: colorArray[Id],
   }
   const cardStyle = {
@@ -31,10 +33,10 @@ const Card = ({ img, footer, header, Id, currentHovered, handleChange }) => {
             <p>{footer}</p>
           </div>
         </div>
-        <div className='FindMore'>
+        <Link to={somePage} className='FindMore'>
           <div className='default-button'> Find More
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

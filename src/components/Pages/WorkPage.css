@@ -1,0 +1,11 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+}
+
+.WorkPageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* To evenly distribute components */
+  gap: 48px; /* Adjust the gap as needed */
+}

@@ -5,6 +5,7 @@ import Work from '../Card/Work'
 import Skills from '../Skills/Skills'
 import Info from '../Information/Info'
 import Footer from '../Footer/Footer'
+import './Home.css'
 
 const Home = () => {
   return (
