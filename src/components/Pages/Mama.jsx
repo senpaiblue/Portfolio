@@ -17,6 +17,7 @@ const Mama = () => {
             <h1 className='MamaWorkFourth'>
               Mama
             </h1>
+            <div className='MamaWorkSixth'>
             <p className='MamaWorkFifth'>
               I undertook the role of leading the redesign efforts for
               the Mama app and website. Additionally, I managed the creation
@@ -24,6 +25,8 @@ const Mama = () => {
               and Twitter. Furthermore, I played a pivotal role in the design of Mama's T-shirt
               merchandise.
             </p>
+            <a href='https://www.chalak.co/' target='_blank' className='default-button'> Know More </a>
+            </div>
           </div>
         </div>
       </div>

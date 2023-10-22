@@ -26,6 +26,7 @@ const Portfolio = () => {
               This iterative process, from design conception to bringing my creations to life,
               is a journey that I truly cherish and find immensely rewarding.
             </p>
+            <a href='https://github.com/senpaiblue/Portfolio' target='_blank' className='default-button'> Know More </a>
           </div>
         </div>
       </div>

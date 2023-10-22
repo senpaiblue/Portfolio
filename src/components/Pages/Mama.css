@@ -39,3 +39,8 @@
   align-items: center;
   gap: 12rem;
 }
+.MamaWorkSixth{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

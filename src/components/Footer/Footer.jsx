@@ -2,6 +2,7 @@ import React from 'react'
 import Linkedin from '../../assets/Linkedin.svg'
 import GitHub from '../../assets/GitHub.svg'
 import Twitter from '../../assets/Twitter.svg'
+import BehanceIcon from '../../assets/BehanceIcon.svg'
 import "./Footer.css"
 
 const Footer = () => {
@@ -19,6 +20,9 @@ const Footer = () => {
             </a>
           <a href='https://twitter.com/SakchamSingh07' target='_blank'>
             <img src={Twitter}/>
+          </a>
+          <a href='https://www.behance.net/sakchamsingh' target='_blank'>
+            <img src={BehanceIcon}/>
           </a>
         </div>
       </div>

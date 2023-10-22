@@ -26,6 +26,7 @@ const MetaOrange = () => {
               The success of this endeavor highlighted our team's dedication and attention to detail,
               which greatly contributed to our company's achievements.
             </p>
+            <a href='https://metaorangedigital.com/' target='_blank' className='default-button'> Know More </a>
           </div>
         </div>
       </div>

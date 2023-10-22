@@ -40,4 +40,9 @@
     font-weight: 300;
     color: #6166F1;
   }
+  .WorkPageSixth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 

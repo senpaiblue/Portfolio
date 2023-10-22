@@ -38,3 +38,8 @@
   width: 35vw;
   margin-right: 9rem;
 }
+.MetaOrangeWorkFourth{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
