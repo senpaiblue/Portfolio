@@ -26,3 +26,10 @@
   border-radius: 8px;
   background: #333131;
 }
+
+@media (max-width: 686px) {
+  .default-button {
+    width: max-content;
+    height: max-content;
+  }
+}

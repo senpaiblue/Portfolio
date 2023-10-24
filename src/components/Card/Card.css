@@ -1,7 +1,7 @@
 * {
   text-decoration: none;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -95,12 +95,33 @@
   width: 100%;
 }
 
-@media(max-width:1400px) {
-  .card {
-    width: 90%;
-  }
-
+/* Media Queries for Phone */
+@media screen and (max-width: 767px) {
   .cards {
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .Main {
+    text-align: center;
+  }
+  .Main h1{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .Main p{
+    font-size: 16px;
+    font-weight: 200;
+  }
+  
+  .card-footer {
+    margin: 10px;
   }
 }
+

@@ -1,53 +1,87 @@
-*{
+* {
   text-decoration: none;
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
 }
 
-.ContactNegative{
+.ContactNegative {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.ContactZero{
+
+.ContactZero {
   display: flex;
   flex-direction: column;
   gap: 42px;
 }
-.ContactFirst{
+
+.ContactFirst {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ContactFirst{
+.ContactFirst {
   margin-left: 9rem;
 }
-.ContactNegativeFirst{
+
+.ContactNegativeFirst {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-right: 9rem;
 }
-.ContactSecond{
+
+.ContactSecond {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
 }
-.ContactThird{
+
+.ContactThird {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.ParaContent{
+
+.ParaContent {
   font-size: 16px;
   font-weight: 200;
   color: #fff;
   width: 32vw;
 }
-.ContactFifth{
+
+.ContactFifth {
   display: flex;
   justify-content: start;
-  gap:6%
+  gap: 6%
+}
+
+@media (max-width: 686px) {
+
+  .ContactNegative{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+  .ContactFirst{
+    width: 200px;
+    height: 200px;
+  }
+  .ContactSecond h1{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .ParaContent{
+    width: 49vw;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .ContactPageIcons{
+    width: 20px;
+    height: 20px;
+  }
 }

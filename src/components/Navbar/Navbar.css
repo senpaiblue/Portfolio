@@ -8,13 +8,14 @@
 .navbar {
   display: flex;
   height: 72px;
-  padding: 9px 148px 8px 147px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   font-family: 'Marko One', serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-  background: #191919;
-
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .Logo {
@@ -27,6 +28,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-left: 9rem;
 }
 
 
@@ -34,6 +36,7 @@
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-right: 10rem;
 }
 
 .navcomp ul {
@@ -65,4 +68,60 @@
 
 .navcomp li :hover {
   color: #7A5CFE;
+}
+
+.active {
+  display: flex !important;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 686px) {
+  .hamburger {
+    display: flex;
+    margin-right: 20rem;
+  }
+
+  .navbar {
+    width: 100vh;
+  }
+
+  .navcomp {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    display: none;
+    flex-direction: column;
+    background: #191919;
+    position: absolute;
+    top: 72px;
+    right: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0rem 18rem 4rem 0rem;
+    gap: 20px;
+  }
+
+  .navcomp li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem 2rem;
+  }
+
+  .navbar.active {
+    height: auto;
+  }
+
+  .hamburger.active {
+    display: none;
+  }
+
+  .close.active {
+    display: flex;
+  }
+  .Logo{
+    margin-left: 0.5rem;
+    gap: 1px;
+  }
 }

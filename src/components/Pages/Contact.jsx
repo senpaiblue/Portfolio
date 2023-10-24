@@ -29,16 +29,16 @@ const Contact = () => {
             </div>
             <div className='ContactFifth'>
               <a href='https://www.linkedin.com/in/sakcham-singh-b45a7721a/' target='_blank'>
-                <img src={LinkedinIcon} />
+                <img className='ContactPageIcons' src={LinkedinIcon} />
               </a>
               <a href='https://github.com/senpaiblue' target='_blank'>
-                <img src={GitHubIcon} />
+                <img className='ContactPageIcons' src={GitHubIcon} />
               </a>
               <a href='https://twitter.com/SakchamSingh07' target='_blank'>
-                <img src={TwitterIcon} />
+                <img className='ContactPageIcons' src={TwitterIcon} />
               </a>
               <a href='https://www.behance.net/sakchamsingh' target='_blank'>
-                <img src={BehanceIcon} />
+                <img className='ContactPageIcons' src={BehanceIcon} />
               </a>
             </div>
           </div>

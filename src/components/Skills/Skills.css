@@ -3,7 +3,7 @@
   margin: 0%;
 }
 
-.SlideMain{
+.SlideMain {
   display: flex;
   flex-direction: column;
   gap: 42px;
@@ -49,13 +49,60 @@
   justify-content: center;
   gap: 115px;
 }
-.Second{
+
+.Second {
   justify-content: start;
-  color:#FFF;
+  color: #FFF;
   display: flex;
   align-items: center;
   gap: 12px;
-  
+
 }
 
+@media (max-width:360px) {
 
+  .SkillsMain {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .SkillRow {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+    gap: 76px;
+    margin: 2rem;
+  }
+
+  .SkillGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .SkillImage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 67%;
+  }
+  .SkillName{
+    font-size: 16px;
+  }
+  .Second{
+    display: flex;
+    justify-content: space-evenly;
+    gap:4px;
+  }
+  .SliderSecond h1{
+   font-size: 20px;
+   font-weight: 800;
+  }
+  .h5Text{
+    font-size: 16px;
+    font-weight: 200;
+  }
+}

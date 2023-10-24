@@ -78,3 +78,50 @@
   color: #fff;
   gap: 12px;
 }
+
+.buttonNew {
+  border-radius: 8px;
+  border: 1px solid #333131;
+  display: flex;
+  width: 290px;
+  height: max-content;
+  padding: 7px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  color: #fff;
+}
+
+.buttonNew:hover {
+  border-radius: 8px;
+  background: #333131;
+}
+
+@media (max-width: 686px) {
+  .section-list {
+    flex-direction: column;
+  }
+
+  .section-header h1 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .section-body p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .Email{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .Twitter{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .CV{
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

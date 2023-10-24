@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import Lottie from 'lottie-react';
 import Logo from '../../assets/Animation - 1697396002016.json'
 import "./Navbar.css"
-
+import hamburgerIcon from '../../assets/Hamburger.svg'
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  }
   return (
     <nav className='navbar'>
       <div className='logoContainer'>
@@ -17,7 +21,10 @@ const Navbar = () => {
           Sakcham
         </Link>
       </div>
-      <ul className='navcomp'>
+      <div className="hamburger" onClick={toggleMenu}>
+        <img src={hamburgerIcon} alt="" />
+      </div>
+      <ul className={`navcomp ${showMenu ? 'active' : ''}`}>
         <li>
           <Link to="/Work" className='Work'>
             Work

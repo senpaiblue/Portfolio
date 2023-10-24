@@ -32,11 +32,12 @@ const Hero = () => {
           <h3 className='headingStyle'>Namaste (Hello), I’m Sakcham.</h3>
           <h1 className='h1Style'>Designer & Developer by Day,</h1>
           <h1 className='h1Styles'>Otaku by Night</h1>
-          <h5 className='description'>I’m based in India, from being a product designer to a frontend developer, for 1 year I’ve been focusing on crafting digital products with a strong focus on visuals and Interfaces.
+          <h5 className='description'>I’m based in India, from being a product designer to a frontend developer,
+            for 1 year I’ve been focusing on crafting digital products with a strong focus on visuals and Interfaces.
           </h5>
         </div>
         <div className='right'>
-          <Lottie
+          <Lottie className='LottieHero'
             options={options}
             animationData={animationData}
             style={{ height: '500px', width: '500px' }}
