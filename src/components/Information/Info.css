@@ -98,7 +98,7 @@
   background: #333131;
 }
 
-@media (max-width: 686px) {
+@media (max-width: 450px) {
   .section-list {
     flex-direction: column;
   }

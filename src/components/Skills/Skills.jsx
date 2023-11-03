@@ -52,7 +52,6 @@ const Skills = () => {
         <h1>Skills</h1>
         <h5 className='h5Text'>Some skills that I’m good at.</h5>
       </div>
-      <div className='Sliderthird'>
         <div className='SkillGrid'>
           <div className='SkillRow'>
             <Skill key={skills[0].name} name={skills[0].name} img={skillMap[skills[0].name]} />
@@ -66,7 +65,6 @@ const Skills = () => {
             <Skill key={skills[4].name} name={skills[4].name} img={skillMap[skills[4].name]} />
             <Skill key={skills[5].name} name={skills[5].name} img={skillMap[skills[5].name]} />
           </div>
-        </div>
       </div>
     </div>
   );
